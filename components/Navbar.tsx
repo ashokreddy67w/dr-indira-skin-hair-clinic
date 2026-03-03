@@ -13,9 +13,10 @@ export default function Navbar() {
           />
         </div>
         <div className="nav-logo-text">
-          <span className="line1">Dr. Priyanka&apos;s</span>
-          <span className="line2">Dermatology &amp; Cosmetology Clinic</span>
+          <span className="line1">Dr.INDIRA &apos;s SKIN & HAIR CLINIC</span>
+          <span className="line2">Dermatologist / Guntur</span>
         </div>
+
       </a>
 
       <ul className="nav-links">

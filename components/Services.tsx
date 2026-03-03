@@ -5,7 +5,6 @@ interface ServiceCard {
     sub: string
     items: string[]
 }
-
 const services: ServiceCard[] = [
     {
         icon: '🔬',
@@ -13,51 +12,36 @@ const services: ServiceCard[] = [
         title: 'Clinical Dermatology',
         sub: 'Skin Care',
         items: [
-            'Acne & Pimple Scar Treatment',
-            'Hyperpigmentation & Skin Tone',
-            'Stretch Mark Treatment',
-            'Skin Tag Assessment & Removal',
-            'General Skin Conditions',
-            'Paediatric & Geriatric Dermatology',
+            'Skin Allergy & Rash Treatment',
+            'Acne & Common Skin Conditions',
+            'Pigmentation & Skin Concerns',
+            'General Dermatology Consultation',
+            'Diagnosis of Chronic Skin Issues',
+            'Dermatology Care for All Age Groups',
         ],
     },
     {
         icon: '💆',
         iconClass: 'ico-b',
-        title: 'Hair Treatments',
-        sub: 'Hair & Trichology',
+        title: 'Hair & Scalp Care',
+        sub: 'Hair Treatments',
         items: [
-            'Hair Loss Consultation & Treatment',
-            'Trichology Assessment & Services',
-            'Scalp Health Management',
-            'Hair Transplantation',
-            'Post-Transplant Care Protocols',
-        ],
-    },
-    {
-        icon: '✨',
-        iconClass: 'ico-c',
-        title: 'Cosmetology',
-        sub: 'Aesthetic Treatments',
-        items: [
-            'Tattoo Removal',
-            'Skin Rejuvenation Treatments',
-            'Chemical Peels & Resurfacing',
-            'Cosmetic Skin Procedures',
-            'Personalised Treatment Plans',
+            'Hair Loss Consultation',
+            'Scalp Condition Evaluation',
+            'Medical Hair Treatment Guidance',
+            'Ongoing Hair Health Management',
         ],
     },
     {
         icon: '🏥',
-        iconClass: 'ico-d',
-        title: 'Dermatosurgery',
-        sub: 'Clinical & Procedures',
+        iconClass: 'ico-c',
+        title: 'Clinical Procedures',
+        sub: 'In-Clinic Care',
         items: [
-            'Minor Surgical Procedures',
-            'Skin Lesion Removal & Biopsy',
-            'Cyst & Lipoma Excision',
-            'Wart & Molluscum Treatment',
-            'Procedure Room-Based Care',
+            'Minor Dermatological Procedures',
+            'Skin Tag Assessment & Removal',
+            'Wart & Common Lesion Treatment',
+            'Procedure-Based Skin Care',
         ],
     },
 ]

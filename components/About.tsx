@@ -1,5 +1,5 @@
 const checks = [
-    'TSMC Registered (2011)',
+    'Dedicated Dermatology Practice',
     'Dedicated Procedure Room',
     'Paediatric to Geriatric',
     'Appointments Recommended',
@@ -8,23 +8,23 @@ const checks = [
 const cards = [
     {
         icon: '🔬',
-        title: 'Clinical Precision',
-        desc: 'Evidence-based dermatology with accurate diagnosis. Every skin condition is assessed clinically — not cosmetically.',
+        title: 'Clinical Diagnosis',
+        desc: 'Focused dermatology consultations with structured evaluation of skin and hair conditions.',
     },
     {
-        icon: '🏆',
-        title: 'Femina Featured — July 2024',
-        desc: 'Recognised for expertise in clinical dermatology. A credibility milestone, not a marketing claim.',
+        icon: '⭐',
+        title: '4.9★ Patient Rating',
+        desc: 'Highly rated by 58 patients for clear explanation, problem analysis, and treatment care.',
     },
     {
-        icon: '✨',
-        title: 'Aesthetic Expertise',
-        desc: 'Advanced cosmetology with a patient-first approach — medically appropriate, never over-promised.',
+        icon: '👩‍⚕️',
+        title: 'Personal Consultations',
+        desc: 'Every consultation is conducted directly by Dr. Indira — not delegated.',
     },
     {
-        icon: '🤖',
-        title: 'Medical AI Workshop — 2025',
-        desc: 'Active participation in AI-aided diagnostics to advance dermatological practice.',
+        icon: '📍',
+        title: 'Accessible Location',
+        desc: 'Conveniently located in Nallacheruvu, Guntur for easy patient access.',
     },
 ]
 
@@ -38,22 +38,21 @@ export default function About() {
                 </h2>
 
                 <p className="about-body">
-                    Dr. Priyanka&apos;s Dermatology &amp; Cosmetology Clinic is a dedicated
-                    specialist practice serving KPHB and across Hyderabad since 2011. Every
-                    consultation is personally conducted by{' '}
-                    <strong>Dr. Priyanka</strong> — MBBS, MD Dermatology — registered with
-                    the Telangana State Medical Council.
+                    Dr. Indira's Skin & Hair Clinic is a specialist dermatology practice
+                    in Guntur. Every consultation is personally conducted by
+                    <strong> Dr. Indira</strong>, [Degree Here], providing structured
+                    diagnosis and evidence-based treatment for skin and hair conditions.
                 </p>
                 <p className="about-body">
-                    With <strong>13+ years of clinical experience</strong> and a{' '}
-                    <strong>4.9★ rating from 870+ patients</strong>, the clinic delivers
-                    clinical dermatology, cosmetology, dermatosurgery, and hair restoration
-                    under one roof — not delegated to technicians.
+                    With <strong>X+ years of clinical experience</strong> and a
+                    <strong> 4.9★ rating from 58 verified reviews</strong>, the clinic
+                    provides focused dermatology care for skin and hair conditions.
+                    All consultations are personally conducted by <strong>Dr. Indira</strong>.
                 </p>
                 <p className="about-body">
-                    Featured in <strong>Femina (July 2024)</strong> and an active participant
-                    in Medical AI workshops (2025), Dr. Priyanka combines clinical rigour with
-                    a commitment to evolving best practice.
+                    Dr. Indira maintains a patient-focused dermatology practice, staying
+                    attentive to evolving clinical approaches in skin and hair treatment
+                    while prioritizing structured diagnosis and clear treatment guidance.
                 </p>
 
                 <div className="about-checks">

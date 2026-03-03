@@ -1,10 +1,10 @@
 const quickLinks = [
-    { href: '#about', label: 'About Dr. Priyanka' },
+    { href: '#about', label: 'About Dr. Indira' },
     { href: '#services', label: 'Services' },
     { href: '#why', label: 'Why Choose Us' },
     { href: '#hours', label: 'Hours & Location' },
     { href: '#contact', label: 'Contact' },
-]
+];
 
 export default function Footer() {
     return (
@@ -13,16 +13,16 @@ export default function Footer() {
                 <div className="footer-top">
                     <div>
                         <div className="f-brand-name">
-                            <span>Dr. Priyanka&apos;s</span> Dermatology &amp;<br />
-                            Cosmetology Clinic
+                            <span>Dr. Indira's</span> Skin & Hair Clinic
                         </div>
+
                         <p className="f-brand-desc">
-                            Specialist Dermatology, Hair Treatment &amp; Cosmetology clinic in
-                            KPHB Phase 1, Kukatpally, Hyderabad. MBBS, MD Dermatology. TSMC
-                            Registered since 2011.
+                            Dermatology clinic in Nallacheruvu, Guntur offering
+                            focused skin and hair consultations with a patient-first approach.
                         </p>
+
                         <div className="f-reg">
-                            TSMC REG. 2011 · MBBS MD DERMATOLOGY · 13+ YRS EXPERIENCE
+                            4.9★ Rated · 58 Google Reviews
                         </div>
                     </div>
 
@@ -40,31 +40,34 @@ export default function Footer() {
                     <div className="f-col">
                         <h4>Contact</h4>
                         <address>
-                            KPHB Phase 1, Kukatpally<br />
-                            Hyderabad, Telangana – 500072<br />
+                            6th Lane, Nallacheruvu<br />
+                            Guntur, Andhra Pradesh – 522004<br />
                             <br />
-                            Mon–Sat: 9am–1pm &amp; 4pm–8pm<br />
-                            Sunday: Closed
+                            Mon–Sat: 9:00 AM – 2:00 PM<br />
+                            Evening: 5:30 PM – 8:00 PM<br />
+                            Sunday: Closed<br />
+                            <br />
+                            Phone: 079955 11344
                         </address>
                     </div>
                 </div>
 
                 <div className="footer-bottom">
                     <p>
-                        © {new Date().getFullYear()} Dr. Priyanka&apos;s Dermatology &amp;
-                        Cosmetology Clinic. All rights reserved.
+                        © {new Date().getFullYear()} Dr. Indira's Skin & Hair Clinic.
+                        All rights reserved.
                     </p>
-                    <p>Hyderabad, Telangana</p>
+                    <p>Guntur, Andhra Pradesh</p>
                 </div>
             </footer>
 
-            {/* WhatsApp FAB */}
+            {/* WhatsApp Floating Button */}
             <a
-                href="https://wa.me/919652085328"
+                href="https://wa.me/917995511344"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="wa-fab"
-                title="WhatsApp Us"
+                title="WhatsApp"
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -78,5 +81,5 @@ export default function Footer() {
                 </svg>
             </a>
         </>
-    )
+    );
 }

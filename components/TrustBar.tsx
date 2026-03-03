@@ -1,9 +1,9 @@
 export default function TrustBar() {
     const items = [
         { icon: '⭐', label: '4.9 / 5 Rating', sub: '870+ Google Reviews Verified' },
-        { icon: '👥', label: 'MBBS, MD Dermatology', sub: 'Specialist Qualified · 13+ Years' },
+        { icon: '👥', label: 'MBBS, DDVL', sub: 'Specialist Qualified · 13+ Years' },
         { icon: '🕐', label: 'Mon – Sat Open', sub: '9am–1pm & 4pm–8pm' },
-        { icon: '📍', label: 'KPHB Phase 1, Kukatpally', sub: 'Hyderabad, Telangana' },
+        { icon: '📍', label: '6th Ln, Nallacheruvu  ', sub: 'Guntur, Andhra Pradesh' },
     ]
 
     return (
